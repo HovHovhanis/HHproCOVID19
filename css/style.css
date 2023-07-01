@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(176, 252, 252, 0.829);
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1420px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.header__title {
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+.header__content {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.header__info-text {
+    display: block;
+}
+
+.header__info-link {
+    display: block;
+    margin: 25px 0 ;
+}
+
+.countries__covid-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(103, 10, 190);
+}
+
+.countries__covid-text {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.th {
+    width: 150px;
+    border: 1px solid #fff;
+    background-color: red;
+}
+.th-1{
+    width: 10px;
+    height: 250px;
+    background-color: red;
+    border: 1px solid #fff;
+}
+.countries__covid-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block-1-wrep {
+    display: flex;
+    border: 1px solid #000;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.block1 {
+    width: 10px;
+    height: 280px;
+    background-color: red;
+    border: 1px solid #eeecec;
+    text-align: center;
+}
+.block-1 {
+    width: 150px;
+    height: 280px;
+    background-color: red;
+    border: 1px solid #f5f0f0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.block-1 p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.block2 {
+    display: flex;
+    border: 1px solid #fff;
+    
+    
+}
+.block-2 {
+    width: 402px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.block-2 {
+    padding: 5px;
+}
+.block-3 {
+    width: 134px;
+    height: 178px;
+    background-color: red;
+    border: 1px solid #f5f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.block-3 p {
+    padding: 0px 8px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.block__2-3 {
+    display: flex;
+   
+}
+.covind-block1 {
+    height: 200px;
+    border: 1px solid #000000;
+}
+.covind-block {
+    background-color: #fff;
+    border: 1px solid #000000;
+    height: 200px;
+}
+.nuw-section {
+    margin-top: 25px;
+}
+.nuw-section h1 {
+    text-align: center;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.nuw-section p {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.list__title {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.nuw-list {
+    margin-bottom: 20px;
+}
+.upper-list {
+    width: fit-content;
+    list-style-type: upper-alpha;
+    margin-bottom: 20px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+.red span{
+    color: red;
+}
+
+.blue span {
+    color: blue;
+}
+
+.orange span {
+    color: orange;
+}
+.link {
+    padding-bottom: 10px;
+    color: blue;
+}
